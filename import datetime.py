@@ -3,7 +3,7 @@ import urllib.request
 import time
 
 def is_holiday(date):
-    url = f(2023.06.26)
+    url = f(2023.06.25)
     
     response = urllib.request.urlopen(url)
     data = response.read().decode("utf-8")
